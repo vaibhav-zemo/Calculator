@@ -1,10 +1,17 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-body{
-    background-color: cyan;
+body {
+    /* background-color: cyan; */
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .calculator {
@@ -31,28 +38,28 @@ body{
     width: 100px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.con div{
+.con div {
     display: flex;
     margin: 2px;
     justify-content: center;
     align-items: center;
-    font-weight:bold;
+    font-weight: bold;
 }
 
- .con .display {
+.con .display {
     position: relative;
     width: 450px;
-    height:100px ;
+    height: 100px;
     background-color: gray;
-    justify-content:unset;
+    justify-content: unset;
     vertical-align: bottom;
     /* margin-left: 90%; */
 }
 
-#display{
+#display {
     width: 420px;
     text-align: right;
 
@@ -62,8 +69,7 @@ body{
     width: 205px;
 }
 
-.con .operator{
+.con .operator {
     color: white;
     background-color: red;
 }
-
